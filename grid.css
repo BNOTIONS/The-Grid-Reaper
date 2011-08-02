@@ -1,0 +1,55 @@
+/* REMOVE THIS CSS RULE - IT IS ONLY A BORDER THAT HIGHLIGHTS THE COLUMNS */
+header,footer,section,nav,.row, .startcol, .endcol, .midcol{
+	border: 2px solid #068;
+}
+
+#interface {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+header,footer,section,nav,.row {
+	min-height: 20px;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+	clear: both;
+}
+
+.startcol, .endcol, .midcol {
+	min-height: 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.startcol {
+	float: left;
+	width: 30%;
+}
+
+.endcol {
+	width: 40%;
+	float: right;
+}
+
+.midcol {
+	width: 30%;
+	float: left;
+}
+
+.col2 .startcol, .col2 .endcol {
+	width: 48%;
+}
+
+.col3 .startcol, .col3 .endcol, .col3 .midcol {
+	width: 30%;
+}
+
+.col4 .startcol, .col4 .endcol, .col4 .midcol {
+	width: 23%;
+}
+
+.col5 .startcol, .col5 .endcol, .col5 .midcol {
+	width: 18%;
+}
